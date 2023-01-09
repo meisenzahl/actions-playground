@@ -16,3 +16,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
+
+      - name: Install Dependencies
+        run: |
+          pwd
+          find . -type f
